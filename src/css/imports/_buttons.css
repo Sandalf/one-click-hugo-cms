@@ -4,7 +4,6 @@
   font-size: var(--spacing-medium);
   line-height: 1.25;
   background-color: var(--white);
-  border-radius: var(--border-radius);
   text-decoration: none;
   font-weight: var(--bold-font-weight);
   color: var(--primary);
