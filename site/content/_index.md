@@ -28,14 +28,13 @@ values:
     want to turn this around and return the coffee trade to the drink’s
     exhilarating, empowering and unifying nature.
   achievements:
-    - image: /img/img_10_400x265.jpg
+    - image: /img/education.png
       title: 98 Proyectos de educación apoyados
       description: A small river named Duden flows by their place and supplies it with the necessary regelialia.
-    - image: /img/img_11_400x265.jpg
+    - image: /img/happiness.png
       title: 200 Personas beneficiadas
       description: A small river named Duden flows by their place and supplies it with the necessary regelialia.
-    - image: /img/img_12_400x265.jpg
-      text: Querétaro
+    - image: /img/stethoscope.png      
       title: 69 Proyectos de salud apoyados
       description: A small river named Duden flows by their place and supplies it with the necessary regelialia.
 ---
