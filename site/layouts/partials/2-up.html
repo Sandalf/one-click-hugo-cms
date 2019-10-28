@@ -1,19 +1,19 @@
 <div class="bg-off-white pv4">
   <div class="ph3 mw7 center">
-    <h2 class="f2 b lh-title mb2 tc">{{.intro.heading}}</h2>
-    <p class="mb4 mw6">{{.intro.text}}</p>
+    <h2 class="f3 lh-title mb2 tc">{{.intro.heading}}</h2>
+    <p class="mb4 tc mw-100">{{.intro.text}}</p>
 
     <div class="flex-ns mhn2-ns mb3">
-      {{ range .products }}
+      {{ range .communities }}
       <div class="ph2-ns w-50-ns">
         <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p>{{.text}}</p>
+        <p class="tc">{{.text}}</p>
       </div>
       {{ end }}
     </div>
 
     <div class="tc">
-      <a href="/products" class="btn raise">See all products</a>
+      <a href="/products" class="btn raise">Ver todas</a>
     </div>
   </div>
 </div>

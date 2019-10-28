@@ -85,3 +85,10 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
+
+@font-face {
+    font-family: 'Intro Book';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/intro-book-alt/Intro-Regular.otf") format("opentype");
+}
