@@ -15,11 +15,14 @@ products:
     text: Querétaro
 communities:
   - image: /img/img_10_400x265.jpg
-    text: Guadalajara
+    title: Guadalajara
+    description:  Some quick example text to build on the card title and make up the bulk of the card's content. 
   - image: /img/img_11_400x265.jpg
-    text: Tecoman
+    title: Tecomán
+    description:  Some quick example text to build on the card title and make up the bulk of the card's content. 
   - image: /img/img_12_400x265.jpg
-    text: Querétaro
+    title: Querétaro
+    description:  Some quick example text to build on the card title and make up the bulk of the card's content. 
 values:
   heading: Logros
   text: >-

@@ -28,6 +28,7 @@
 @import './imports/_reset';
 
 /* Modules */
+@import './imports/_box-shadow';
 @import './imports/_box-sizing';
 @import './imports/_images';
 @import './imports/_background-size';
@@ -91,4 +92,8 @@
     font-weight: normal;
     font-style: normal;
     src: url("../fonts/intro-book-alt/Intro-Regular.otf") format("opentype");
+}
+
+.community-item {
+    box-shadow: 0 0 40px -10px rgba(0,0,0,.1);
 }

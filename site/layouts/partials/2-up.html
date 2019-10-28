@@ -1,13 +1,16 @@
-<div class="bg-off-white pv4">
+<div class="bg-off-white pv4 f6">
   <div class="ph3 mw7 center">
     <h2 class="f3 lh-title mb2 tc">{{.intro.heading}}</h2>
     <p class="mb4 tc mw-100">{{.intro.text}}</p>
 
     <div class="flex-ns mhn2-ns mb3">
       {{ range .communities }}
-      <div class="ph2-ns w-50-ns">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p class="tc">{{.text}}</p>
+      <div class="w-50-ns community-item mr3 br1">
+        <img src="{{.image}}" class="center db mb3 br0 br--top">
+        <div class="ph3">
+          <p class="tc">{{.title}}</p>
+          <p class="tc grey-3">{{.description}}</p>
+        </div>
       </div>
       {{ end }}
     </div>
