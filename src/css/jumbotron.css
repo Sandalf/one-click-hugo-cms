@@ -1,28 +1,89 @@
-.jumbotron {
-	background-size: cover;
-	background-color: #ccc;
-	padding: 0;
-    position: relative;	
-    min-height: 700px;
-    height: 100vh;
+.block-30 {
+    background-size: cover;
+    background-color: #ccc;
+    padding: 0;
+    position: relative;
 }
 
-.jumbotron::before {
-    background: black;
+.block-30:before {
+    background: #000;
     position: absolute;
     content: "";
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .4;
+    opacity: 0.4;
     z-index: 0;
 }
 
-.jumbotron .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.block-30.no-overlay:before {
+    display: none;
+}
+
+.block-30, .block-30 .row {
+    min-height: 700px;
+    height: 100vh;
+}
+
+
+.block-30 .subheading-sm {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.block-30 .subheading-sm:after {
+    width: 80px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+}
+
+.block-30 .heading {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.block-30 .btn {
+    background: #fff;
+    border-radius: 0;
+    border: 2px solid transparent;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #999999;
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.2);
+}
+
+.block-30 .btn:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.block-30.block-30-sm, .block-30.block-30-sm .row {
+    min-height: 700px;
+    height: 70vh;
+}
+
+.block-30.block-30-sm .heading {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+
+.block-30 .lead {
+    color: #fff;
 }

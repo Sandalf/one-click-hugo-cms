@@ -1,6 +1,6 @@
 ---
 title: Mensaje
-subtitle: Mensaje
+subtitle: Mensaje secundario
 image: /img/hero_2.jpg
 intro:
   heading: Comunidades apoyadas

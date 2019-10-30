@@ -1,19 +1,20 @@
-<div class="relative">
+<div style="position: relative;">
   <div>
-    <div class="pv5 pv6-l ph3 bg-center cover jumbotron" style="background-image: url('{{.imageUrl}}')">
-      <div class="mw7 center ph3 container">
-        <div class="db mb3">
-          <div class="mw7 relative bg-fix-primary mb3">
-            <h1 class="f2 f1-l b di lh-title mb3 white mw6">
-              {{.title}}
-            </h1>
-          </div>
-          <div class="mw7 relative bg-fix-primary">
-            {{ if .subtitle }}
-            <p class="b f4 di lh-title mb3 white mw6">
-              {{.subtitle}}
-            </p>
-            {{ end }}
+    <div
+      class="block-30 item"
+      style="background-image: url('{{.imageUrl}}')"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h2 class="heading">{{.title}}</h2>
+            <div>
+              {{ if .subtitle }}
+              <p class="white">
+                {{.subtitle}}
+              </p>
+              {{ end }}
+            </div>
           </div>
         </div>
       </div>
