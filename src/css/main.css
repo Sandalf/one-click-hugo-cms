@@ -87,6 +87,14 @@
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
 
+/* Bootstrap */
+@import './bootstrap/bootstrap';
+@import './bootstrap/bootstrap-grid';
+
+/* Custom css */
+@import './jumbotron';
+@import './navbar';
+
 @font-face {
     font-family: 'Intro Book';
     font-weight: normal;

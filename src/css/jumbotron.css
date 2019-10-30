@@ -1,0 +1,28 @@
+.jumbotron {
+	background-size: cover;
+	background-color: #ccc;
+	padding: 0;
+    position: relative;	
+    min-height: 700px;
+    height: 100vh;
+}
+
+.jumbotron::before {
+    background: black;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .4;
+    z-index: 0;
+}
+
+.jumbotron .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
