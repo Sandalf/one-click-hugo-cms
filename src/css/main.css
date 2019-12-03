@@ -105,3 +105,37 @@
 .community-item {
     box-shadow: 0 0 40px -10px rgba(0,0,0,.1);
 }
+
+/* Posts */
+.post-entry .img-wrap {
+    position: relative;
+    display: block;
+  }
+  .post-entry .img-wrap .date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    background: #79ccab;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.3s all ease;
+  }
+  .post-entry .img-wrap:hover .date {
+    font-size: 16px;
+    color: #fff;
+    background: #000;
+  }
+  .post-entry h3 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .post-entry h3 a {
+    color: #000;
+  }
+  .post-entry h3 a:hover {
+    color: #79ccab;
+  }
+  .post-entry p {
+    color: #999999;
+  }

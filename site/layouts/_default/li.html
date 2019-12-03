@@ -1,6 +1,12 @@
-<a href="{{ .RelPermalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
-	<h2 class="f3 b lh-title mb1 primary">{{ .RelPermalink }}</h2>
-	<p class="mid-gray lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	<p class="mb0">{{ .Description }}</p>
-	<p class="link b dib black mb0">Leer más →</p>
+<a href="{{ .RelPermalink }}">
+	<div class="post-entry">
+		<div>
+			<a href="#" class="mb-3 img-wrap">
+				<span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+			</a>
+			<h3><a href="#">{{ .Title }}</a></h3>
+			<p class="mb0">{{ .Description }}</p>
+			<p><a href="#">Leer más</a></p>
+		</div>
+	</div>
 </a>

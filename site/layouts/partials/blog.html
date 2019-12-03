@@ -4,11 +4,15 @@
 		<h2 class="f3 lh-title mb3 tc">Noticias recientes</h2>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 3 (where .Data.Pages "Type" "post") }}
-				<div class="ph1-ns w-50-ns flex">
-					{{ .Render "li" }}
-				</div>
-			{{ end }}
+			<div class="row">
+				{{ range $page := first 3 (where .Pages "Type" "post")}}
+					{{ range $post := $page.Pages }}
+					<div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						{{ .Render "li" }}
+					</div>
+					{{ end }}
+				{{ end }}
+			</div>
 		</div>
 
 		<div class="tc">
