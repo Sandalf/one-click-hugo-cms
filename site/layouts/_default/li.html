@@ -1,15 +1,15 @@
 <a href="{{ .RelPermalink }}">
 	<div>
-		<div class="post-entry tc fw1">
+		<div class="post-entry fw1">
 			<a href="{{ .RelPermalink }}" class="mb-3 img-wrap">				
-				<img src="{{ .Params.image }}" alt="Image placeholder" class="img-fluid" />
+				<img src="{{ .Params.image }}" alt="Image placeholder" class="img-fluid w-100" />
 				<span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
 			</a>
-			<h3 class="fw3"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-			<p class="f6">
+			<h3 class="fw3 tc"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+			<p class="f6 tc">
 				{{ .Description }}
 			</p>
-			<p class="f6 read-more"><a href="{{ .RelPermalink }}">Leer Más</a></p>
+			<p class="f6 read-more tc"><a href="{{ .RelPermalink }}">Leer Más</a></p>
 		</div>
 	</div>
 </a>
