@@ -1,7 +1,8 @@
 <a href="{{ .RelPermalink }}">
 	<div>
 		<div class="post-entry">
-			<a href="#" class="mb-3 img-wrap">				
+			{{ .RelPermalink }}
+			<a href="{{ .RelPermalink }}" class="mb-3 img-wrap">				
 				<img src="{{ .Params.image }}" alt="Image placeholder" class="img-fluid" />
 				<span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
 			</a>
