@@ -1,9 +1,9 @@
 ---
-title: A beginners’ guide to brewing with Chemex
+title: Conviertete en voluntario
 date: 2019-10-20T15:04:10.000Z
 description: >-
   Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
-image: /img/blog-chemex.jpg
+image: /img/img_7_400x265.jpg
 ---
 
 This [week](/wdwdw) we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts\*.

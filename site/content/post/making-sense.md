@@ -1,8 +1,8 @@
 ---
-title: "Making sense of the SCAA’s new Flavor Wheel"
+title: "Los niños necesitan educación"
 date: 2016-12-17T15:04:10.000Z
 description: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
-image: /img/blog-flavor_wheel.jpg
+image: /img/img_9_400x265.jpg
 ---
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
